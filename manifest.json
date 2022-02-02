@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Extension",
+  "version": "1.0",
+  "description": "Show Jira issue id on tab title and Group tab by domain name (sadegh.tkd@gmail.com)",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "tabGroups"
+  ],
+  "host_permissions": [
+	"https://jira.greenweb.ir/",
+	"*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

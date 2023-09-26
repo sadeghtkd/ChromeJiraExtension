@@ -13,7 +13,7 @@
     "tabGroups"
   ],
   "host_permissions": [
-	"https://jira.greenweb.ir/",
+	"https://jira.mydomain.ir/",
 	"*://*/*"
   ],
   "background": {
